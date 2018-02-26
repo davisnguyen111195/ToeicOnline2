@@ -8,12 +8,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <packaging>war</packaging>
   <groupId>vn.myclass</groupId>
   <artifactId>toeic-web</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>toeic-web</name>
   <url>http://maven.apache.org</url>
+  <packaging>war</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -22,7 +22,6 @@
       <groupId>vn.myclass</groupId>
       <artifactId>toeic-web-logic</artifactId>
       <version>0.0.1-SNAPSHOT</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
