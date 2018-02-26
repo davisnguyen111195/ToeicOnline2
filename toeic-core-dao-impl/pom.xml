@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
-  <groupId>vn.myclass</groupId>
+  
   <artifactId>toeic-core-dao-impl</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+
   <name>toeic-core-dao-impl</name>
   <url>http://maven.apache.org</url>
   <properties>
