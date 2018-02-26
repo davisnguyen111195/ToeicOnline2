@@ -24,5 +24,6 @@
   </dependencies>
   <modules>
   	<module>toeic-web-logic</module>
+  	<module>toeic-web</module>
   </modules>
 </project>
