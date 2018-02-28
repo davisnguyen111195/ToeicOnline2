@@ -7,4 +7,6 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
   <artifactId>toeic-web-logic</artifactId>
+  
+  
 </project>
