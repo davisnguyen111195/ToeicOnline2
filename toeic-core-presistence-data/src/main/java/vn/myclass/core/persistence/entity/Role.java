@@ -34,4 +34,10 @@ public class Role {
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
 	}
+	public List<Users> getUserList() {
+		return userList;
+	}
+	public void setUserList(List<Users> userList) {
+		this.userList = userList;
+	}
 }
