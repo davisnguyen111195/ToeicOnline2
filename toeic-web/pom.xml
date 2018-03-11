@@ -26,7 +26,7 @@
 
   	<dependency>
   		<groupId>vn.myclass</groupId>
-  		<artifactId>toeic-core-presistence-data</artifactId>
+  		<artifactId>toeic-core-persistence-data</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

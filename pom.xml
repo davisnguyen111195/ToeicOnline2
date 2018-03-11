@@ -64,6 +64,6 @@
   	<module>toeic-core-service-impl</module>
   	<module>toeic-core-utils</module>
     <module>toeic-core-common</module>
-    <module>toeic-core-presistence-data</module>
+    <module>toeic-core-persistence-data</module>
   </modules>
 </project>

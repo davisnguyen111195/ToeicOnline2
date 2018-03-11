@@ -11,6 +11,7 @@
         <module name="toeic-core-dao-impl" />
         <module name="toeic-core-data" />
         <module name="toeic-core-dto" />
+        <module name="toeic-core-persistence-data" />
         <module name="toeic-core-presistence-data" />
         <module name="toeic-core-service" />
         <module name="toeic-core-service-impl" />
@@ -25,6 +26,7 @@
       <module name="toeic-core-dao-impl" target="1.7" />
       <module name="toeic-core-data" target="1.7" />
       <module name="toeic-core-dto" target="1.7" />
+      <module name="toeic-core-persistence-data" target="1.7" />
       <module name="toeic-core-presistence-data" target="1.7" />
       <module name="toeic-core-service" target="1.7" />
       <module name="toeic-core-service-impl" target="1.7" />
