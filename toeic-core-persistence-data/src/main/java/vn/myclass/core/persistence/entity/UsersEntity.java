@@ -27,7 +27,7 @@ public class UsersEntity {
 	@JoinColumn(name = "roleId")
 	private RoleEntity roleEntity;
 	
-	@OneToMany(mappedBy = "users", fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "usersEntity", fetch = FetchType.LAZY)
 	private List<CommentEntity> commentList;
  	
 	

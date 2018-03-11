@@ -15,6 +15,7 @@
         <module name="toeic-core-presistence-data" />
         <module name="toeic-core-service" />
         <module name="toeic-core-service-impl" />
+        <module name="toeic-core-test" />
         <module name="toeic-core-utils" />
         <module name="toeic-web" />
         <module name="toeic-web-logic" />
@@ -30,6 +31,7 @@
       <module name="toeic-core-presistence-data" target="1.7" />
       <module name="toeic-core-service" target="1.7" />
       <module name="toeic-core-service-impl" target="1.7" />
+      <module name="toeic-core-test" target="1.7" />
       <module name="toeic-core-utils" target="1.7" />
       <module name="toeic-web" target="1.7" />
       <module name="toeic-web-logic" target="1.7" />

@@ -12,5 +12,7 @@
         <property name="show_sql">true</property>
         <mapping class="vn.myclass.core.persistence.entity.UsersEntity"/>
         <mapping class="vn.myclass.core.persistence.entity.RoleEntity"/>
+        <mapping class="vn.myclass.core.persistence.entity.ListenguidelineEntity"/>
+        <mapping class="vn.myclass.core.persistence.entity.CommentEntity"/>
     </session-factory>
 </hibernate-configuration>
