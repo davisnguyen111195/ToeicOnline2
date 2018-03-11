@@ -15,7 +15,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "users")
-public class Users {
+public class UsersEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer usersId;
@@ -25,10 +25,10 @@ public class Users {
 	
 	@ManyToOne
 	@JoinColumn(name = "roleId")
-	private Role role;
+	private RoleEntity roleEntity;
 	
 	@OneToMany(mappedBy = "users", fetch = FetchType.LAZY)
-	private List<Comment> commentList;
+	private List<CommentEntity> commentList;
  	
 	
 	public String getEmail() {
@@ -43,10 +43,10 @@ public class Users {
 	public void setUsersId(Integer usersId) {
 		this.usersId = usersId;
 	}
-	public List<Comment> getCommentList() {
+	public List<CommentEntity> getCommentList() {
 		return commentList;
 	}
-	public void setCommentList(List<Comment> commentList) {
+	public void setCommentList(List<CommentEntity> commentList) {
 		this.commentList = commentList;
 	}
 }

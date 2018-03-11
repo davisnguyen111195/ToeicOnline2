@@ -14,7 +14,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "listenguideline")
-public class Listenguideline {
+public class ListenguidelineEntity {
 
 	@Column(name = "title")
 	private String title;
@@ -35,8 +35,8 @@ public class Listenguideline {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer listenguidelineId;
 	
-	@OneToMany(mappedBy = "listenguideline", fetch = FetchType.LAZY)
-	private List<Comment> commentList;
+	@OneToMany(mappedBy = "listenguidelineEntity", fetch = FetchType.LAZY)
+	private List<CommentEntity> commentList;
 	
 	public String getTitle() {
 		return title;
@@ -86,11 +86,11 @@ public class Listenguideline {
 		this.listenguidelineId = listenguidelineId;
 	}
 
-	public List<Comment> getCommentList() {
+	public List<CommentEntity> getCommentList() {
 		return commentList;
 	}
 
-	public void setCommentList(List<Comment> commentList) {
+	public void setCommentList(List<CommentEntity> commentList) {
 		this.commentList = commentList;
 	}
 }

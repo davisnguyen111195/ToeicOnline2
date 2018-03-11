@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "role")
-public class Role {
+public class RoleEntity {
 	@Id
 	@Column(name = "roleId")
 	private Integer roleId;
@@ -19,8 +19,8 @@ public class Role {
 	@Column(name = "roleName")
 	private String roleName;
 	
-	@OneToMany(mappedBy = "role", fetch = FetchType.LAZY)
-	private List<Users> userList;
+	@OneToMany(mappedBy = "roleEntity", fetch = FetchType.LAZY)
+	private List<UsersEntity> userList;
 	
 	public Integer getRoleId() {
 		return roleId;
@@ -34,10 +34,10 @@ public class Role {
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
 	}
-	public List<Users> getUserList() {
+	public List<UsersEntity> getUserList() {
 		return userList;
 	}
-	public void setUserList(List<Users> userList) {
+	public void setUserList(List<UsersEntity> userList) {
 		this.userList = userList;
 	}
 }

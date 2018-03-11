@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 
 @Entity
 @Table(name = "comment")
-public class Comment {
+public class CommentEntity {
 	@Column(name = "content")
 	private String content;
 	
@@ -27,11 +27,11 @@ public class Comment {
 	
 	@ManyToOne
 	@JoinColumn(name = "usersId")
-	private Users users;
+	private UsersEntity usersEntity;
 
 	@ManyToOne
 	@JoinColumn(name = "listenguidelineId")
-	private Listenguideline listenguideline;
+	private ListenguidelineEntity listenguidelineEntity;
 	
 	public String getContent() {
 		return content;
